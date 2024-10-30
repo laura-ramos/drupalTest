@@ -1,0 +1,7 @@
+name: 'Example'
+type: module
+description: 'Un módulo de ejemplo para Drupal.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:node

@@ -1,0 +1,7 @@
+example.mi_form:
+  path: '/mi-formulario'
+  defaults:
+    _form: '\Drupal\example\Form\MiFormulario'
+    _title: 'Mi Formulario'
+  requirements:
+    _permission: 'access content'
