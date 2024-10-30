@@ -1,0 +1,4 @@
+services:
+  example.api_consumer:
+    class: Drupal\example\ApiService
+    arguments: ['@http_client']
